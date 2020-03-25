@@ -17,8 +17,8 @@ const PORT = process.env.PORT || 8080;
 const {Client} = require('pg');
 const client = new Client({
   user: 'postgres',
-  host: 'localhost',
-  database: 'Ants',
+  host: 'ants4senq-postgres-instance-1.cqwsye3vz3p1.ap-northeast-1.rds.amazonaws.com',
+  database: 'ants',
   password: 'postgres',
   port: 5432,
 })
