@@ -6,9 +6,9 @@ Dependencies : node.js + Express + Socket.io + PostgresQL
 Auther : Magosa
 **/
 
-const ROUTER_SERVER_ADDRESS = 'http://172.22.2.109:8080';
+const ROUTER_SERVER_ADDRESS = 'http://52.68.63.131:8080';
 const HTTP_PORT_NO = process.env.PORT || 8000;
-const REDIS_HOST_NAME = '172.22.2.109';
+const REDIS_HOST_NAME = 'ants4senq-redis.7fvofb.ng.0001.apne1.cache.amazonaws.com';
 const REDIS_PORT_NO = 6379;
 
 
